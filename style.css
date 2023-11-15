@@ -24,7 +24,7 @@ body {
   src: url(fonts/IBMPlexMono-Medium.ttf);
 }
 
-/* ХЕДЕР */
+/* header */
 
 .header {
   width: 100%;
@@ -71,7 +71,7 @@ body {
   background: #A1A6B4;
 }
 
-/* ГЛАВНЫЙ ЭКРАН */
+/* index.html */
 
 .main {
   background: #F1F1F1;
@@ -90,11 +90,12 @@ body {
 
 .container__image {
   width: 364px;
-  height: 254px;
+  max-height: 254px;
   border-radius: 10px 10px 0 0;
 }
 
 .container__title {
+  margin-top: -4px;
   width: 323px;
   padding: 32px 24px 0 24px;
   color: #121723;
@@ -135,11 +136,12 @@ body {
 
 .info {
   width: 364px;
+  max-height: 316px;
   background: #FFFFFF;
   border-radius: 0 0 10px 10px;
 }
 
-/* УНИКАЛЬНЫЕ СТРАНИЦЫ */
+/* sneaker.html */
 
 .main__content {
   display: flex;
@@ -264,7 +266,7 @@ body {
   font-weight: 400;
 }
 
-/* ФУТЕР */
+/* footer */
 
 .footer {
   padding-top: 25px;
